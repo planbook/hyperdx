@@ -203,7 +203,7 @@ services:
     container_name: hdx-oss-ch-server
     ports:
       - 8123:8123 # http api
-      - 9000:9000 # native
+      - 9010:9000 # native
     environment:
       # default settings
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
